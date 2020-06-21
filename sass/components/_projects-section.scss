@@ -2,6 +2,9 @@
   @extend %section;
   border-top: 1px solid #ececec;
 }
+.container {
+  @extend %container;
+}
 .section-title {
   margin-top: 0;
   font-size: 36px;
