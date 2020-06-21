@@ -1,4 +1,4 @@
-.main-nav {
+.main-nav, .footer {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -271,5 +271,30 @@ summary {
       -ms-flex-align: center;
           align-items: center;
   min-height: 80px;
+}
+
+.footer-page {
+  background-color: #2f303a;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 18px;
+  padding-bottom: 21px;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
 }
 /*# sourceMappingURL=portfolio.css.map */
