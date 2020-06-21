@@ -28,13 +28,15 @@
   background-color: $secondary-bg-color;
 }
 .section-title {
-  @extend %visually-hidden
   margin-top: 0;
   margin-bottom: 50px;
 
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  &.visually-hidden {
+    @extend %visually-hidden;
+  }
 }
 
 .features-title {
