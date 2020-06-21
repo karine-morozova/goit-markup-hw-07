@@ -2,6 +2,9 @@
   @extend %section;
   background-color: $secondary-bg-color;
 }
+.container {
+  @extend %container;
+}
 
 .worker-list {
   @extend %list;
