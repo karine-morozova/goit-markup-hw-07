@@ -993,21 +993,9 @@ summary {
           align-items: baseline;
 }
 
-.copyright {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 18px;
-  padding-bottom: 21px;
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-}
-
 .contacts {
-  margin-top: 48px;
-  margin-bottom: 28px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   margin-right: 69px;
 }
 
