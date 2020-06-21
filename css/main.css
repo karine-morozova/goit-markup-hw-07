@@ -1,11 +1,11 @@
-.logo, .site-nav .link {
+.logo, .site-nav .link, .header-link {
   display: block;
   font-family: roboto, sans-serif;
   text-decoration: none;
   cursor: pointer;
 }
 
-.site-nav {
+.site-nav, .flex-contacts {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -301,7 +301,7 @@ summary {
   color: #2196f3;
 }
 
-.logo span {
+.logo-text {
   color: #2196f3;
 }
 
@@ -334,14 +334,13 @@ summary {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
+.site-nav .link:hover, .site-nav .link:focus {
+  color: #2196f3;
 }
 
 .site-nav .link.current {
   position: relative;
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .nav-item .current::after {
@@ -352,7 +351,67 @@ summary {
   top: 27px;
   left: 0;
   margin-top: 27px;
-  background: var(--accent-color);
+  background: #2196f3;
   border-radius: 2px;
+}
+
+.flex-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+
+.contacts-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 30px;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-item:hover, .contacts-item:focus {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.contacts-item:last-child {
+  margin-right: 0;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-link:hover, .header-link:focus {
+  color: #2196f3;
+}
+
+.envelope {
+  margin-right: 10px;
+  color: #757575;
+}
+
+.contacts-item:hover .envelope,
+.contacts-item:focus .envelope {
+  fill: #2196f3;
+}
+
+.phone {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.contacts-item:hover .phone,
+.contacts-item:focus .phone {
+  fill: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */
